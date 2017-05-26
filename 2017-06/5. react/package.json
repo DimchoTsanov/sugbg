@@ -1,0 +1,38 @@
+{
+  "name": "global",
+  "version": "1.0.0",
+  "description": "Project that keeps the logic loaded through a global script",
+  "main": "index.js",
+  "author": "OneBit Software",
+  "license": "ISC",
+  "scripts": {
+    "build-production": "node_modules\\.bin\\webpack -p",
+    "build-debug": "node_modules\\.bin\\webpack -d",
+    "dev-server": "node_modules\\.bin\\webpack-dev-server -d"
+  },
+  "dependencies": {
+    "@types/jquery": "2.0.41",
+    "@types/react": "15.0.21",
+    "@types/react-dom": "0.14.23",
+    "jquery": "3.2.1",
+    "office-ui-fabric-react": "2.10.6",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "ts-loader": "2.0.3",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "3.1.2",
+    "babel-cli": "6.24.0",
+    "babel-core": "6.24.0",
+    "babel-loader": "6.4.1",
+    "babel-preset-env": "1.3.2",
+    "babel-preset-react": "6.23.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "source-map-loader": "0.2.1",
+    "typescript": "2.2.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "2.4.2"
+  }
+}

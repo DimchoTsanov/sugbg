@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "react-grid-fabricui",
+    "framework": "react",
+    "version": "1.0.2",
+    "libraryId": "ceceb4e5-8e91-4590-bf05-dc802f09200c"
+  }
+}

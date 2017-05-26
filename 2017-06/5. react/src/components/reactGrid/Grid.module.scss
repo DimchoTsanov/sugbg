@@ -1,0 +1,12 @@
+.wrapper{
+  max-height: 250px;
+  overflow-y: auto;
+}
+.listItem
+{
+   display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}

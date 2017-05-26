@@ -1,0 +1,19 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/1ReactGrid/1ReactGridWebPart.js",
+      "manifest": "./src/webparts/1ReactGrid/1ReactGridWebPart.manifest.json",
+      "outputPath": "./dist/1-react-grid.bundle.js"
+    },
+    {
+      "entry": "./lib/webparts/reactGrid/ReactGridWebPart.js",
+      "manifest": "./src/webparts/reactGrid/ReactGridWebPart.manifest.json",
+      "outputPath": "./dist/react-grid.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "1ReactGridStrings": "webparts/1ReactGrid/loc/{locale}.js",
+    "reactGridStrings": "webparts/reactGrid/loc/{locale}.js"
+  }
+}

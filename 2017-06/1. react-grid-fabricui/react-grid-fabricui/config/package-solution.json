@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "react-grid-fabricui-client-side-solution",
+    "id": "ceceb4e5-8e91-4590-bf05-dc802f09200c",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/react-grid-fabricui.sppkg"
+  }
+}

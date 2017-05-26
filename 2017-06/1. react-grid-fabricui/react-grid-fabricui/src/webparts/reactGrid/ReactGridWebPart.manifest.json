@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "02fa1426-bf27-4eb0-85c9-fdbb311b28fe",
+  "alias": "ReactGridWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "02fa1426-bf27-4eb0-85c9-fdbb311b28fe",
+    "group": { "default": "Under Development" },
+    "title": { "default": "react grid" },
+    "description": { "default": "react grid description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "react grid"
+    }
+  }]
+}

@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "js-grid",
+    "framework": "none",
+    "version": "1.0.2",
+    "libraryId": "bfd87d01-f8b7-4ce4-9a39-2b6220300e3f"
+  }
+}

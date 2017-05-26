@@ -1,0 +1,6 @@
+{
+  "workingDir": "./temp/deploy/",
+  "account": "<!-- STORAGE ACCOUNT NAME -->",
+  "container": "react-grid-fabricui",
+  "accessKey": "<!-- ACCESS KEY -->"
+}
