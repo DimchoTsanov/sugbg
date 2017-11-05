@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "todo-sugbg-client-side-solution",
+    "id": "54423ebb-9e62-4a65-9c53-ac53cb533132",
+    "version": "3.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/todo-sugbg.sppkg"
+  }
+}

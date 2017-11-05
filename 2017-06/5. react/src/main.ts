@@ -6,6 +6,8 @@ declare var _spPageContextInfo: any;
 import { NavBasicExample } from "./components/Nav";
 import Grid from "./components/reactGrid/Grid";
 
+import { JsGrid } from "./components/Grid";
+
 import { IGridProps } from "./components/reactGrid/IGridProps";
 import IDocsDataProvider from "./dataProviders/IDocsDataProvider";
 import MockupDocsDataProvider from "./dataProviders/MockupDocsDataProvider";
@@ -36,13 +38,17 @@ document.addEventListener("DOMContentLoaded", function (event) {
             _dataProvider = new MockupDocsDataProvider();
         }
 
-        const element: React.ReactElement<IGridProps> = React.createElement(
-            Grid,
-            {
-                dataProvider: _dataProvider,
-            }
-        );
-        ReactDOM.render(element, wrapperElements[0]);
+        // const element: React.ReactElement<IGridProps> = React.createElement(
+        //     Grid,
+        //     {
+        //         dataProvider: _dataProvider,
+        //     }
+        // );
+        //ReactDOM.render(element, wrapperElements[0]);
+
+        const element2: JsGrid = new JsGrid("sugbgApp");
+        element2.dataProvider = _dataProvider;
+        element2.RenderData();
 
         console.log("ReactDOM.render is executed for React Grid");
     }

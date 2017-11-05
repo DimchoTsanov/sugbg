@@ -1,0 +1,59 @@
+.header
+{
+    background-color:rgb(234, 234, 234);
+    height:40px; 
+}
+.headerText
+{
+    position: relative;
+    top:7px;
+    left:20px;
+}
+.wrapper{
+  max-height: 550px;
+  overflow-y: auto;
+}
+
+.headerInfo
+{
+    text-align: right;
+    position: relative;
+    bottom: 8px;
+    right: 30px;
+    font-size: 16px;
+}
+
+.calloutHeader {
+    padding: 18px 24px 12px;
+}
+
+.calloutTitle {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 100;
+    color: #333333;
+    font-weight: 300;
+}
+
+.calloutInner {
+    height: 100%;
+    padding: 0 24px 20px;
+}
+
+.calloutSubText {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+    font-weight: 300;
+}
+.calloutWrapper
+{
+    max-width: 300px;
+}
+
+.loadingWrapper
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

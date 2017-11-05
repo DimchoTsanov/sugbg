@@ -15,7 +15,7 @@ export default class ReactGrid extends React.Component<IGridProps, IGridState> {
       isLoading: true,
     };
 
-    this._editDocument1 = this._editDocument1.bind(this);
+    this._editDocument = this._editDocument.bind(this);
   }
 
   public render(): React.ReactElement<IGridProps> {
@@ -37,8 +37,7 @@ export default class ReactGrid extends React.Component<IGridProps, IGridState> {
         })*/
 
         //example 2
-
-        let call = this._editDocument1.bind(this);
+        let call = this._editDocument.bind(this);
         docsList = this.state.documents.map(function (item) {
           return <li key={item.Id.toString()}
             className="listItem">
@@ -79,14 +78,7 @@ export default class ReactGrid extends React.Component<IGridProps, IGridState> {
       });
   }
 
-  private _editDocument(event: any, a: any): void {
-    event.preventDefault()
-    debugger;
-    var el = event.target
-    console.log(el);
-  }
-
-  private _editDocument1(doc: IDoc): void {
+  private _editDocument(doc: IDoc): void {
     event.preventDefault()
     debugger;
 
@@ -96,6 +88,7 @@ export default class ReactGrid extends React.Component<IGridProps, IGridState> {
         debugger;
 
         var updatedDoc: IDoc = result;
+        
         if (updatedDoc) {
           let indexOfUpdatedItem = -1;
 
